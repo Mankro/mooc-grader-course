@@ -7,6 +7,7 @@ try:
     # it is easy to cheat a simple grader like this one if the student's code
     # is able to read the name file, hence the sandbox should prevent I/O operations
     with open("name", "r") as f:
+        # generated personalized instance file
         word = f.read().strip()
     correct_answer = "Hello, {0}!".format(word)
 

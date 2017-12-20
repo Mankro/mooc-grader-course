@@ -1,4 +1,2 @@
 install-python-3.5.sh
 install-python-virtualenvs.sh
-install-jdk-8.sh
-install-scala-2.11.8.sh
